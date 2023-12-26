@@ -15,8 +15,8 @@ spec:
         service: backend-user
     spec:
       containers:
-      - name: udagram-api-user
-        image: 0987432592345457/udagram-api-user:v2
+      - name: backend-user
+        image: 0987432592345457/udagram-api-user:v3
         ports:
         - containerPort: 80
         imagePullPolicy: Always  
