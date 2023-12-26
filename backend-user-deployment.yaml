@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-user
-        image: 0987432592345457/udagram-api-user
+        image: 0987432592345457/udagram-api-user:v1
         ports:
         - containerPort: 80
         envFrom:
